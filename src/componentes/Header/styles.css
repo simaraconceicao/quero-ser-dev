@@ -1,0 +1,39 @@
+
+
+.home-header {
+    background-image: url('../../imagens/jorge-gardner-5DqvsOPKdlk-unsplash-1024x891.jpg');
+    min-height: 100vh;
+    background-position: right center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-header {
+   min-height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+  }

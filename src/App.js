@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+// componentes
+import Navbar from './componentes/Nav'
+// paginas
+import PaginaInicial from './paginas/PaginaInicial'
+import Acomodacoes from './paginas/Acomodacoes'
+import Experiencias from './paginas/Experiencias'
+import Busca from './paginas/Busca'
+import SejaAnfitriao from './paginas/SejaAnfitriao'
 
-function App() {
+
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Switch>
+      <div>
+        <Navbar />
+        <Route exact path='/' component={PaginaInicial} />
+        <Route path='/acomodacoes' component={Acomodacoes} />
+        <Route path='/experiencias' component={Experiencias} />
+        <Route path='/busca' component={Busca} />
+        <Route path='/anfitriao' component={SejaAnfitriao} />
+      </div>
+    </Switch>
+  )
 }
 
-export default App;
+export default App
