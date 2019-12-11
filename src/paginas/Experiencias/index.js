@@ -1,37 +1,36 @@
-import React, { useState, useEffect } from 'react'
-import Experiencia from '../../componentes/Experiencia'
-import { getExperiencias } from '../../services/experiencias'
-// Importe de estilo
-import './styles.css'
-//Hooks
-function Experiencias () {
-  const [experiencias, setExperiencias] = useState(undefined)
+// import React, { useState, useEffect } from 'react'
 
-  useEffect(() => {
-    setTimeout(
-      getExperiencias()
-        .then(response => {
-        console.log('data', response.data)
-          setExperiencias(response.data)
-        })
-        .catch(error => {
-          console.error(error)
-        }),
-      5000
-    )
-  })
+// // Importe de estilo
+// import './styles.css'
+// //Hooks
+// function Experiencias () {
+//   const [experiencias, setExperiencias] = useState(undefined)
 
-  return (
-    <div className='card'>
-      {experiencias ? (
-        experiencias.map((item, index) => (
-          <Experiencia experiencia={item} key={index + 'experiencia'} />
-        ))
-      ) : (
-        <span>Carregando experiencias :D</span>
-      )}
-    </div>
-  )
-}
+//   useEffect(() => {
+//     setTimeout(
+//       getExperiencias()
+//         .then(response => {
+//         console.log('data', response.data)
+//           setExperiencias(response.data)
+//         })
+//         .catch(error => {
+//           console.error(error)
+//         }),
+//       5000
+//     )
+//   })
 
-export default Experiencias
+//   return (
+//     <div className='card'>
+//       {experiencias ? (
+//         experiencias.map((item, index) => (
+//           <Experiencia experiencia={item} key={index + 'experiencia'} />
+//         ))
+//       ) : (
+//         <span>Carregando experiencias :D</span>
+//       )}
+//     </div>
+//   )
+// }
+
+// export default Experiencias

@@ -9,7 +9,8 @@ function SejaAnfitriao () {
             <Nav />
             <Header classeHeader='home-header'>
                 Seja Anfitrião
-            </Header>                   
+            </Header>   
+                       
         </main>
     )
 }
