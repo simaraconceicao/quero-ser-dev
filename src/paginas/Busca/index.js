@@ -1,17 +1,13 @@
 import React from 'react'
+
 import Nav from '../../componentes/Nav'
 import Header from '../../componentes/Header'
-
-import CardAcomodacao from '../../componentes/Cards/CardAcomodacao'
-import CardExperiencia from '../../componentes/Cards/CardExperiencia'
-import CardCategoria from '../../componentes/Cards/CardCategoria'
-import CardCat from '../../componentes/Cards/CardCat'
-import Reservar from '../../componentes/Botoes/Reservar'
-import Comprar from '../../componentes/Botoes/Comprar'
-import Pesquisar from '../../componentes/Botoes/Pesquisar'
-// import GoogleMaps from '../../componentes/Inputs/GoogleMaps'
-// import MaterialUIPickers from '../../componentes/Inputs/MaterialUIPickers'
+import Copyright from '../Copyright'
+import EscolherData from '../../componentes/Inputs/EscolherData'
 import Hospedes from '../../componentes/Inputs/Hospedes'
+import Reservar from '../../componentes/Botoes/Reservar'
+
+import './styles.css'
 
 
 function Busca() {
@@ -19,19 +15,15 @@ function Busca() {
         <main>
             <Nav />
             <Header classeHeader='home-header'>
-                Turismo e Cultura Negra
+            Turismo e Cultura Negra
+            {/* <EscolherCidade/> */}
+            <div classeName="formulario">
+                <EscolherData/>
+                <Hospedes/>
+                <Reservar/>
+            </div>
             </Header>
-            <CardAcomodacao />
-            <CardExperiencia />
-            <CardCategoria />
-            <CardCat/>
-            <Reservar/>
-            <Comprar/>
-            <Pesquisar/>
-            {/* <GoogleMaps/> */}
-            {/* <MaterialUIPickers/> */}
-            <Hospedes/>
-
+            <Copyright/>           
 
         </main>
     )

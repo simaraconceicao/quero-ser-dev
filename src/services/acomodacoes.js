@@ -1,13 +1,13 @@
 import axios from 'axios'
 
 const config = {
-  baseURL: 'https://diaspora.black',
+  baseURL: 'https://my-json-server.typicode.com/simaraconceicao/acomodacoes',
   timeout: 1000
 }
 
 const protocolo = axios.create(config)
 
 export function getAcomodacoes () {
-  const url = '/wp-json/wp/v2/estate_property'
+  const url = './acomodacoes'
   return protocolo.get(url)
 }

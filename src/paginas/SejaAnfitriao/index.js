@@ -3,13 +3,15 @@ import Nav from '../../componentes/Nav'
 import Header from '../../componentes/Header'
 
 
+
 function SejaAnfitriao () {
     return (
         <main>
             <Nav />
             <Header classeHeader='home-header'>
                 Seja Anfitrião
-            </Header>   
+            </Header>
+              
                        
         </main>
     )

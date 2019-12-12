@@ -37,10 +37,9 @@ export default function Hospedes() {
   return (
     <div>
       <Button className={classes.button} onClick={handleOpen}>
-        Informe a quantidade de Hóspedes
       </Button>
       <FormControl className={classes.formControl}>
-        <InputLabel id="demo-controlled-open-select-label">Hóspedes</InputLabel>
+        <InputLabel id="demo-controlled-open-select-label">HÓSPEDES</InputLabel>
         <Select
           labelId="demo-controlled-open-select-label"
           id="demo-controlled-open-select"
