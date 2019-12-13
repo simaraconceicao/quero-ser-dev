@@ -1,36 +1,22 @@
-// import React, { useState, useEffect } from 'react'
+import React from 'react';
 
-// // Importe de estilo
-// import './styles.css'
-// //Hooks
-// function Experiencias () {
-//   const [experiencias, setExperiencias] = useState(undefined)
+import Header from '../../componentes/Header'
+import Formulario from '../../componentes/Formulario'
+import GridExperiencia from '../../componentes/GridExperiencia';
+import Footer from '../../componentes/Footer';
 
-//   useEffect(() => {
-//     setTimeout(
-//       getExperiencias()
-//         .then(response => {
-//         console.log('data', response.data)
-//           setExperiencias(response.data)
-//         })
-//         .catch(error => {
-//           console.error(error)
-//         }),
-//       5000
-//     )
-//   })
 
-//   return (
-//     <div className='card'>
-//       {experiencias ? (
-//         experiencias.map((item, index) => (
-//           <Experiencia experiencia={item} key={index + 'experiencia'} />
-//         ))
-//       ) : (
-//         <span>Carregando experiencias :D</span>
-//       )}
-//     </div>
-//   )
-// }
+export default function Acomodacoes() {
+    return (
+        <React.Fragment>
+            <Header/>
+            <Formulario/>                      
+            <GridExperiencia/>
+            <Footer/>
+        </React.Fragment>
 
-// export default Experiencias
+
+    )
+
+
+}

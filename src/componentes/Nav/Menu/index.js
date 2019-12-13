@@ -33,17 +33,17 @@ class LinkMenu extends React.Component {
         <ul className={classesDasOpcoes}>
           <li>
             <Link to='/' className='navbar-links__ativo'>
-              Busca
+              Home
             </Link>
           </li>
           <li>
             <Link to='/acomodacoes' className='navbar-links__ativo'>
-              Acomodações
+              Buscar Acomodações
             </Link>
           </li>
           <li>
             <Link to='/experiencias' className='navbar-links__ativo'>
-              Experiências
+              Buscar Experiências
             </Link>
           </li>
           <li>

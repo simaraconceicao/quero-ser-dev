@@ -2,6 +2,9 @@ import React from 'react'
 import Nav from '../../componentes/Nav'
 import Header from '../../componentes/Header'
 
+import Footer from '../../componentes/Footer'
+
+
 
 
 function SejaAnfitriao () {
@@ -11,7 +14,9 @@ function SejaAnfitriao () {
             <Header classeHeader='home-header'>
                 Seja Anfitrião
             </Header>
-              
+
+            <Footer/>
+                        
                        
         </main>
     )
