@@ -4,16 +4,20 @@ import Header from '../../componentes/Header'
 
 import Footer from '../../componentes/Footer'
 
+import DetalheAnfitriao from '../../componentes/DetalheAnfitriao'
+
 
 
 
 function SejaAnfitriao () {
     return (
         <main>
-            <Nav />
+            <Nav/>
             <Header classeHeader='home-header'>
                 Seja Anfitrião
             </Header>
+            <DetalheAnfitriao/>
+          
 
             <Footer/>
                         

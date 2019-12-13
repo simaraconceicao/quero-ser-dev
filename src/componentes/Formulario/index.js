@@ -8,7 +8,8 @@ import Container from '@material-ui/core/Container';
 
 import EscolherData from './Inputs/EscolherData'
 import Hospedes from './Inputs/Hospedes'
-// import Local from './Inputs/Local'
+// import GoogleMaps from './Inputs/GoogleMaps'
+import Local from '../Formulario/Inputs/Local'
 
 const useStyles = makeStyles(theme => ({
   icon: {
@@ -38,7 +39,8 @@ export default function Formulario() {
             <Grid container spacing={2} justify="center">
                 <EscolherData/>
                 <Hospedes/>
-                <Hospedes/>
+                <Local/>
+                {/* <GoogleMaps/> */}
                                           
             </Grid>
             <div className={classes.heroButtons}>
