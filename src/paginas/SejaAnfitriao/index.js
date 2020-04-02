@@ -4,7 +4,7 @@ import Header from '../../componentes/Header'
 
 import Footer from '../../componentes/Footer'
 
-import DetalheAnfitriao from '../../componentes/DetalheAnfitriao'
+// import DetalheAnfitriao from '../../componentes/DetalheAnfitriao'
 
 
 
@@ -14,9 +14,9 @@ function SejaAnfitriao () {
         <main>
             <Nav/>
             <Header classeHeader='home-header'>
-                Seja Anfitrião
+                Em breve muitas indicações de cursos!
             </Header>
-            <DetalheAnfitriao/>
+            {/* <DetalheAnfitriao/> */}
           
 
             <Footer/>

@@ -53,7 +53,7 @@ export default function GridAcomodacao() {
         <Container className={classes.cardGrid} maxWidth="md">
          
           <Typography component="h3" variant="h4" align="left" color="textPrimary" gutterBottom>
-            Reserve lugares sem preconceito para se hospedar
+            Escolha um episódio e se jogue!
           </Typography>
           <Grid container spacing={4}>
             {cards.map(card => (

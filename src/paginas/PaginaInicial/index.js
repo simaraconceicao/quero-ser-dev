@@ -5,8 +5,8 @@ import Header from '../../componentes/Header'
 import HeroUnit from '../../componentes/HeroUnit'
 import Footer from '../../componentes/Footer'
 
-import GridExperiencia from '../../componentes/GridExperiencia'
-import GridAcomodacao from '../../componentes/GridAcomodacao'
+// import GridExperiencia from '../../componentes/GridExperiencia'
+// import GridAcomodacao from '../../componentes/GridAcomodacao'
 
 
 
@@ -17,11 +17,11 @@ function Busca() {
         <main>
             <Nav />
             <Header classeHeader='home-header'>
-            Turismo e Cultura Negra
+            {/* A jornada */}
             </Header>
             <HeroUnit/>            
-            <GridAcomodacao/>
-            <GridExperiencia/>
+            {/* <GridAcomodacao/>
+            <GridExperiencia/> */}
             <Footer/>         
 
         </main>

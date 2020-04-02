@@ -1,9 +1,9 @@
 
 
 .home-header {
-    background-image: url('../../imagens/jorge-gardner-5DqvsOPKdlk-unsplash-1024x891.jpg');
-    min-height: 60vh;
-    background-position: right center;
+    background-image: url('../../imagens/jorge-gardner-5DqvsOPKdlk-unsplash-1024x891.jpeg');
+    min-height: 68vh;
+    background-position: right bottom;
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: overlay;
@@ -16,6 +16,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* @media (min-width: 900px) {
+
+    .home-header {
+        background-image: url('../../imagens/jorge-gardner-5DqvsOPKdlk-unsplash-1024x891.jpeg');
+        min-height: 68vh;
+        background-position: right bottom;
+        background-attachment: fixed;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: overlay;
+            
+    }
+
+
+} */
 
 .blog-header {
    min-height: 50vh;
@@ -37,3 +52,4 @@ h1 {
     font-size: 3rem;
     color: white;
   }
+
