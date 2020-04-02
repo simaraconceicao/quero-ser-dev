@@ -50,7 +50,7 @@ export default function GridExperiencia() {
         
         <Container className={classes.cardGrid} maxWidth="md">
           <Typography component="h3" variant="h4" align="left" color="textPrimary" gutterBottom>
-          Roteiros de cultura negra para conhecer
+          {/* Roteiros de cultura negra para conhecer */}
           </Typography>
           <Grid container spacing={4}>
             {cards.map(card => (

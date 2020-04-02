@@ -38,17 +38,17 @@ class LinkMenu extends React.Component {
           </li>
           <li>
             <Link to='/acomodacoes' className='navbar-links__ativo'>
-              Buscar Acomodações
+              Podcast
             </Link>
           </li>
           <li>
             <Link to='/experiencias' className='navbar-links__ativo'>
-              Buscar Experiências
+              Blog
             </Link>
           </li>
           <li>
             <Link to='/anfitriao' className='navbar-links__ativo'>
-              Seja Anfitrião
+              Buscar Cursos
             </Link>
           </li>
         </ul>

@@ -6,8 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
-import EscolherData from './Inputs/EscolherData'
-import Hospedes from './Inputs/Hospedes'
+// import EscolherData from './Inputs/EscolherData'
+// import Hospedes from './Inputs/Hospedes'
 // import GoogleMaps from './Inputs/GoogleMaps'
 import Local from '../Formulario/Inputs/Local'
 
@@ -34,11 +34,11 @@ export default function Formulario() {
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography component="h3" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Qual o seu destino dos sonhos?
+              Por qual caminho você deseja ir hoje?
             </Typography>
             <Grid container spacing={2} justify="center">
-                <EscolherData/>
-                <Hospedes/>
+                {/* <EscolherData/>
+                <Hospedes/> */}
                 <Local/>
                 {/* <GoogleMaps/> */}
                                           

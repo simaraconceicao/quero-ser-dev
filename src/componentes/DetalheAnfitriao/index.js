@@ -65,7 +65,7 @@ const useStyles = makeStyles(theme => ({
           <div className={classes.heroContent}>
             <Container maxWidth="sm">
               <Typography component="h3" variant="h2" align="center" color="textPrimary" gutterBottom>
-                Tudo pronto para começar a ganhar dinheiro?
+                Tudo pronto para começar a estudar desenvolvimento web?
               </Typography>
               <Typography variant="h5" align="center" color="textSecondary" paragraph>
               Assine o termo de Não ao Preconceito e compartilhe qualquer espaço sem taxas de cadastro, desde uma sala de estar compartilhada até uma segunda casa e outros tipos de propriedade.

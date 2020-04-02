@@ -12,8 +12,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      <Link color="inherit" href="https://simaraconceicao.com/">
+        Simara Conceição
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -44,10 +44,10 @@ export default function Footer() {
       
           <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
-          Diaspora.Black
+          quero ser  &lt;dev&gt;
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Viagens sem preconceito e com muita cultura negra.
+          A dor e a delícia da jornada de se tornar uma pessoa desenvolvedora.
         </Typography>
         <Copyright />
       </footer>

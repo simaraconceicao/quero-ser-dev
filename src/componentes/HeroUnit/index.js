@@ -56,23 +56,24 @@ export default function HeroUnit() {
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography component="h3" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Qual o seu destino dos sonhos?
+              Quer se tornar uma pessoa desenvolvedora?
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              "Planejando direitinho, todo mundo viaja." É possível visitar qualquer lugar do mundo
-              ou explorar os bairros aí na sua cidade. A Cultura Negra sempre tem uma história pra contar.
-              O que você deseja fazer hoje?
+              Estudando direitinho, todo mundo programa. E mesmo sem ter uma graduação na área,
+              é possível se tornar uma pessoa que manja dos paranauês de desenvolvimento web.
+              Nunca é tarde ou cedo demais para começar essa jornada!
+              Quantos passos você deseja percorrer hoje?
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
                   <Button variant="contained" color="primary">
-                    Ver Experiências
+                    Ouvir Podcast
                   </Button>
                 </Grid>
                 <Grid item>
                   <Button variant="outlined" color="primary">
-                    Reservar Acomodações
+                    Buscar Cursos
                   </Button>
                 </Grid>
               </Grid>
