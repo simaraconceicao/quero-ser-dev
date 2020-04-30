@@ -8,7 +8,7 @@ function Nav() {
     return (
         <nav className='navbar'>
             <img src={Logo}
-            alt='Logotipo do Diaspora'
+            alt='Logotipo quero ser dev'
             className='navbar-logo'
             />
             <Menu/>
