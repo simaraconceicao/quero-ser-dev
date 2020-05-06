@@ -1,29 +1,25 @@
 import React from 'react'
 
+
+import Nav from '../../componentes/Nav'
 import Header from '../../componentes/Header'
 import Footer from '../../componentes/Footer'
 
-//inserrir grid de episodios
 
 
+//inserrir grid de episodios 
+function Podcast() {
+    return (
+      <div>
+        <Nav/>
+        <Header classeHeader='home-header'>
+                Em breve o Podcast estará disponível aqui!
+        </Header>           
 
-
-
-class Podcast extends React.Component {
-    
-    render() {
-        return (
-            <>
-                <Header/>
-                {/* <Formulario/> */}
-                {/* inserir tag grid episodios */}
-                <Footer/>
-    
-            </>
-        )
-    }
-
+       
+        <Footer/>
+      </div>
+    ) 
 }
 
-export default Podcast
-
+export default Podcast;

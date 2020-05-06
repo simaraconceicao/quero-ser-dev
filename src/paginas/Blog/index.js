@@ -6,12 +6,12 @@ import Formulario from '../../componentes/Formulario'
 import Footer from '../../componentes/Footer';
 
 
-export default function Acomodacoes() {
+export default function Blog() {
     return (
         <React.Fragment>
             <Header/>
             <Formulario/>                      
-            {/* <GridExperiencia/> ------->inserir grid de postagens*/}
+            {/* <GridExperiencia/> ------->inserir grid de postagens que aparece após capturar valor digitado*/}
             <Footer/>
         </React.Fragment>
 
