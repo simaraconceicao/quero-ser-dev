@@ -4,12 +4,11 @@ import Header from '../../componentes/Header'
 
 import Footer from '../../componentes/Footer'
 
-// import DetalheAnfitriao from '../../componentes/DetalheAnfitriao'
 
 
 
 
-function SejaAnfitriao () {
+function BuscaCursos () {
     return (
         <main>
             <Nav/>
@@ -26,4 +25,4 @@ function SejaAnfitriao () {
     )
 }
 
-export default SejaAnfitriao
+export default BuscaCursos

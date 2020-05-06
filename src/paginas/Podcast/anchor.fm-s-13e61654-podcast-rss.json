@@ -1,0 +1,55 @@
+﻿{
+    "status": "ok",
+    "feed": {
+        "url": "https://anchor.fm/s/13e61654/podcast/rss",
+        "title": "quero ser dev",
+        "link": "simaraconceicao.com",
+        "author": "Simara Conceição",
+        "description": "Estudando direitinho, todo mundo programa. Esse Podcast foi criado para contar a dor e a delícia de se tornar uma pessoa desenvolvedora web.",
+        "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/3238461/3238461-1585838505468-b6df6d217248a.jpg"
+    },
+    "items": [
+        {
+            "title": "Transição de carreira é pra mim?",
+            "pubDate": "2020-04-23 02:44:15",
+            "link": "https://anchor.fm/simara-conceicao/episodes/Transio-de-carreira--pra-mim-ed4rl9",
+            "guid": "66b3eccb-8a54-45a5-8baa-0b8ca5276b68",
+            "author": "Simara Conceição",
+            "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/3238461/3238461-1587609541155-090dff7ff6b26.jpg",
+            "description": "Um bate-papo incrível sobre transição de carreira com Talita Barbosa, mãe, nerd, Engenheira de Software e Palestrante. Vem descobrir se transição de carreira é pra você!",
+            "content": "Um bate-papo incrível sobre transição de carreira com Talita Barbosa, mãe, nerd, Engenheira de Software e Palestrante. Vem descobrir se transição de carreira é pra você!",
+            "enclosure": {
+                "link": "https://anchor.fm/s/13e61654/podcast/play/12790889/https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-04-23/874a82dab9ba571d2c16d87aa7943bfb.m4a",
+                "type": "audio/x-m4a",
+                "length": 26686301,
+                "duration": 1649,
+                "rating": {
+                    "scheme": "urn:itunes",
+                    "value": "No"
+                }
+            },
+            "categories": []
+        },
+        {
+            "title": "A dor e a delícia da jornada de se tornar uma pessoa desenvolvedora web",
+            "pubDate": "2020-04-02 14:38:14",
+            "link": "https://anchor.fm/simara-conceicao/episodes/A-dor-e-a-delcia-da-jornada-de-se-tornar-uma-pessoa-desenvolvedora-web-ec9nb9",
+            "guid": "996e8d37-38fb-4e8d-ba0d-f359d07f49ce",
+            "author": "Simara Conceição",
+            "thumbnail": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/3238461/3238461-1585838292391-dae57250e7abe.jpg",
+            "description": "Estudando direitinho, todo mundo programa. Esse é o episódio piloto do podcast: quero ser <dev>. Eu conto como iniciei minha jornada na área de tecnologia, quais cursos eu já fiz, quais as linguagens eu uso e ainda explico conceitos básicos de front-end, back-end e full stack.</dev>\n",
+            "content": "Estudando direitinho, todo mundo programa. Esse é o episódio piloto do podcast: quero ser <dev>. Eu conto como iniciei minha jornada na área de tecnologia, quais cursos eu já fiz, quais as linguagens eu uso e ainda explico conceitos básicos de front-end, back-end e full stack.</dev>\n",
+            "enclosure": {
+                "link": "https://anchor.fm/s/13e61654/podcast/play/11901737/https://d3ctxlq1ktw2nl.cloudfront.net/staging/2020-04-02/668c75e475b038a8152d35e4a0636a54.m4a",
+                "type": "audio/x-m4a",
+                "length": 12021202,
+                "duration": 743,
+                "rating": {
+                    "scheme": "urn:itunes",
+                    "value": "No"
+                }
+            },
+            "categories": []
+        }
+    ]
+}

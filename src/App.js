@@ -4,10 +4,10 @@ import { Switch, Route } from 'react-router-dom'
 import Navbar from './componentes/Nav'
 
 
-import Acomodacoes from './paginas/Acomodacoes'
-import Experiencias from './paginas/Experiencias'
+import Podcast from './paginas/Podcast'
+import Blog from './paginas/Blog'
 import PaginaInicial from './paginas/PaginaInicial'
-import SejaAnfitriao from './paginas/SejaAnfitriao'
+import BuscaCursos from './paginas/BuscaCursos'
 
 
 
@@ -18,9 +18,9 @@ function App() {
       <div>
         <Navbar />
         <Route exact path='/' component={PaginaInicial} />
-        <Route path='/acomodacoes' component={Acomodacoes} />
-        <Route path='/experiencias' component={Experiencias} />
-        <Route path='/anfitriao' component={SejaAnfitriao} />
+        <Route path='/podcast' component={Podcast} />
+        <Route path='/blog' component={Blog} />
+        <Route path='/cursos' component={BuscaCursos} />
       </div>
     </Switch>
   )
